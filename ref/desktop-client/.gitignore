@@ -7,11 +7,6 @@ node_modules
 coverage
 test-results
 
-# production
-build
-build-stats
-stats.json
-
 # misc
 .DS_Store
 .env

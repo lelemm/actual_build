@@ -1,0 +1,2 @@
+import{cP as a,r as n}from"./index.15_rIw78.js";function u(){const e=a();return n.useMemo(()=>e?(e.schedules.filter(t=>r(t,e.statuses))||[]).map(t=>({id:"preview/"+t.id,payee:t._payee,account:t._account,amount:t._amount,date:t.next_date,notes:e.statuses.get(t.id),schedule:t.id})):[],[e])}function r(e,s){const t=s.get(e.id);return!e.completed&&(t==="due"||t==="upcoming"||t==="missed")}export{u};
+//# sourceMappingURL=usePreviewTransactions.9E3yxDt5.chunk.js.map
