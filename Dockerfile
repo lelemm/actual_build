@@ -19,6 +19,7 @@ RUN mkdir /data/user-files
 
 WORKDIR /app
 COPY --from=base /app/node_modules /app/node_modules
+COPY --from=base /app/ref /app/ref
 ADD package.json app.js ./
 ADD src ./src
 ADD migrations ./migrations
